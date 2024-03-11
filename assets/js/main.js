@@ -10,11 +10,7 @@ createApp(
             }
         },
 
-        mounted() {
-            console.log(this.image);
-            this.counter = this.counter;
-
-        },
+       
 
         methods: {
             send() {
