@@ -13,7 +13,13 @@
 
         <h1>{{message}}</h1>
         <img :src="image" alt="">
-        
+
+        <div>
+            <button @click="counter+=100">increment</button>
+            {{counter}}
+            <button @click="counter-=100">decrement</button>
+            <button @click="send">send</button>
+        </div>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
